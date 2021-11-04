@@ -19,7 +19,7 @@
 8. End
 
 **Snippets:** \
-![Reverse String](src/1-reverseString.png)
+![Reverse String](src/1-reverseString.png)\
 ![Reverse String Output](src/1-reverseString-output.jpg)
 
 ## Case #2
@@ -38,6 +38,9 @@
 8. Print function with String argument
 9. End
 
+**Snippets:** \
+![Reverse String Output](src/2-palindromeDetector-output.jpg)
+
 ## Case #3
 
 > Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat "Saya belajar Javascript", output = "Javascript belajar Saya"
@@ -50,6 +53,9 @@
 4. Print function with String argument
 5. End
 
+**Snippets:** \
+![Reverse String Output](src/3-reverseWordsPosition-output.jpg)
+
 ## Case #4
 
 > Diberikan sebuah kata Surabaya, ubah huruf "a" pada kata tersebut menjadi huruf "o". Sehingga output-nya menjadi Suroboyo.
@@ -61,3 +67,6 @@
 3. Return **char.replace(/a/g, "o");**
 4. Print function with String argument
 5. End
+
+**Snippets:** \
+![Reverse String Output](src/4-changeLetter-output.jpg)
