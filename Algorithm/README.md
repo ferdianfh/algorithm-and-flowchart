@@ -19,7 +19,7 @@
 8. End
 
 **Snippets:**
-![Reverse String](1-reverseString.png)
+![Reverse String](src/1-reverseString.png)
 ![Reverse String Output](src/1-reverseString-output.jpg)
 
 ## Case #2
