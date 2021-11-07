@@ -10,17 +10,13 @@
 **The algorithm** :
 
 1. Start
-2. Create function **reverseString** with parameter **taka**
-3. Declare variable **newTaka** with empty string
-4. Create for loop with **i = taka.length - 1**, **i >= 0**, **and i-- .**
-5. Assign **newTaka += taka[i]** inside loop
-6. Return **newTaka**
-7. Print function with String argument
+2. Create **Function** with **parameter**
+3. Declare **new variable** with empty string
+4. Create a loop with **i = parameter.length - 1**, **i >= 0**, **and i-- .**
+5. Assign **new variable += parameter[i]** inside loop
+6. Return **new variable**
+7. Print Function with String argument
 8. End
-
-**Snippets:** \
-![Reverse String](src/1-reverseString.png)\
-![Reverse String Output](src/1-reverseString-output.jpg)
 
 ## Case #2
 
@@ -29,17 +25,14 @@
 **The algorithm** :
 
 1. Start
-2. Create function **palindromeDetector** with parameter **palindrome**
-3. Declare variable **newPal** with empty string
-4. Create FOR loop with **i = palindrome.length - 1**, **i >= 0**, **and i-- .**
-5. Assign **newPal += palindrome[i]** inside loop
-6. IF **newPal === palindrome** is TRUE, Return **"Palindrome"**
+2. Create **Function** with **parameter**
+3. Declare **new variable** with empty string
+4. Create a loop with **i = parameter.length - 1**, **i >= 0**, **and i-- .**
+5. Assign **new variable += parameter[i]** inside loop
+6. IF **new variable === parameter** is TRUE, Return **"Palindrome"**
 7. ELSE Return **"It's Not Palindrome"**
-8. Print function with String argument
+8. Print Function with String argument
 9. End
-
-**Snippets:** \
-![Reverse String Output](src/2-palindromeDetector-output.jpg)
 
 ## Case #3
 
@@ -48,13 +41,14 @@
 **The algorithm** :
 
 1. Start
-2. Create function **reverseWordPosition** with parameter **phrase**
-3. Return **phrase.split(" ").reverse().join(" ");**
-4. Print function with String argument
-5. End
-
-**Snippets:** \
-![Reverse String Output](src/3-reverseWordsPosition-output.jpg)
+2. Create **Function** with **parameter**
+3. Declare **firstVar** then assign with **parameter.split(" ")**
+4. Declare **secondVar** then assign with empty array
+5. Create a loop with **i = firstVar.length - 1**, **i >= 0**, **and i-- .**
+6. Insert **firstVar** into **secondVar** with **secondVar.push(firstVar[i]);**
+7. Return **secondVar.join(" ")**
+8. Print Function with String Argument
+9. End
 
 ## Case #4
 
@@ -63,10 +57,8 @@
 **The algorithm** :
 
 1. Start
-2. Create function **changeLetter** with parameter **char**
-3. Return **char.replace(/a/g, "o");**
-4. Print function with String argument
-5. End
-
-**Snippets:** \
-![Reverse String Output](src/4-changeLetter-output.jpg)
+2. Create **Function** with **parameter**
+3. Return **parameter.replace();**
+4. Insert **/letter/g, "newLetter"** as parameter for **replace()**
+5. Print function with String argument
+6. End
