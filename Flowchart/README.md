@@ -14,19 +14,19 @@
 
 > Diberikan sebuah teks, periksa apakah kata tersebut palidrom atau tidak. Misalnya teks "Malam", output = Palindrom.
 
-**The Flowchart** :
+**The Flowchart** : \
 ![Palindrome Detector](2_palindromeDetector.png)
 
 ## Case #3
 
 > Diberikan sebuah kalimat, ubah urutan kata-kata di dalam kalimat menjadi terbalik. Misalnya kalimat "Saya belajar Javascript", output = "Javascript belajar Saya"
 
-**The Flowchart** :
+**The Flowchart** : \
 ![Reverse Words Position](3_reverseWordsPosition.png)
 
 ## Case #4
 
 > Diberikan sebuah kata Surabaya, ubah huruf "a" pada kata tersebut menjadi huruf "o". Sehingga output-nya menjadi Suroboyo.
 
-**The Flowchart** :
+**The Flowchart** : \
 ![Change Letter](4_changeLetter.png)
