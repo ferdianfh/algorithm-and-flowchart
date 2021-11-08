@@ -77,9 +77,35 @@ console.log(reverseWords("Saya Belajar Javascript"));
 * Diberikan sebuah kata Surabaya, ubah huruf "a" pada kata tersebut menjadi huruf "o".
 * Sehingga output-nya menjadi Suroboyo.
 */
+// * cara 1
+// function changeLetter (char) {
+//     return char.replace(/a/g, "o");
+// }
 
-function changeLetter (char) {
-    return char.replace(/a/g, "o");
+// console.log(changeLetter("Surabaya"));
+
+// * cara 2 without replace() method
+function replaceLetter(string, search, replace) {
+    return string.split(search).join(replace);
 }
 
-console.log(changeLetter("Surabaya"));
+
+console.log(replaceLetter('abba', 'a', 'i'));          // => 'ibbi'
+console.log(replaceLetter('go go go!', 'go', 'move')); // => 'move move move!'
+console.log(replaceLetter('oops', 'z', 'y'));
+
+// * cara 3
+function changeLetter (param) {
+    let newArr = [];
+    for (i = 0; i < param.length; i++) {
+        if (param[i] === 'a') {
+            newArr.push("o")
+        } else {
+            newArr.push(param[i])
+        }
+    }
+
+    return newArr.join("");
+}
+
+console.log(changeLetter("jayakarta"));

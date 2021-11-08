@@ -12,7 +12,7 @@
 1. Start
 2. Create **Function** with **parameter**
 3. Declare **new variable** with empty string
-4. Create a loop with **i = parameter.length - 1**, **i >= 0**, **and i-- .**
+4. Create a loop with **i = parameter.length - 1**, **i >= 0**, and **i-- .**
 5. Assign **new variable += parameter[i]** inside loop
 6. Return **new variable**
 7. Print Function with String argument
@@ -27,9 +27,9 @@
 1. Start
 2. Create **Function** with **parameter**
 3. Declare **new variable** with empty string
-4. Create a loop with **i = parameter.length - 1**, **i >= 0**, **and i-- .**
+4. Create a loop with **i = parameter.length - 1**, **i >= 0**, and **i-- .**
 5. Assign **new variable += parameter[i]** inside loop
-6. IF **new variable === parameter** is TRUE, Return **"Palindrome"**
+6. IF **new variable === parameter**, Return **"Palindrome"**
 7. ELSE Return **"It's Not Palindrome"**
 8. Print Function with String argument
 9. End
@@ -44,7 +44,7 @@
 2. Create **Function** with **parameter**
 3. Declare **firstVar** then assign with **parameter.split(" ")**
 4. Declare **secondVar** then assign with empty array
-5. Create a loop with **i = firstVar.length - 1**, **i >= 0**, **and i-- .**
+5. Create a loop with **i = firstVar.length - 1**, **i >= 0**, and **i-- .**
 6. Insert **firstVar** into **secondVar** with **secondVar.push(firstVar[i]);**
 7. Return **secondVar.join(" ")**
 8. Print Function with String Argument
@@ -58,7 +58,10 @@
 
 1. Start
 2. Create **Function** with **parameter**
-3. Return **parameter.replace();**
-4. Insert **/letter/g, "newLetter"** as parameter for **replace()**
-5. Print function with String argument
-6. End
+3. Declare **newVariable** and assign with Empty Array
+4. Create a loop with **i = 0**, **i < parameter.length**, and **i++**
+5. IF **parameter[i] === "a"**, Return **newVariable.push("o")**
+6. ELSE Return **newVariable.push(parameter[i])**
+7. Return **newVariable.join("")**
+8. Print Function with String Argument
+9. End
