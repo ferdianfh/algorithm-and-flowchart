@@ -26,7 +26,7 @@
 
 ## Case #4
 
-> Diberikan sebuah kata Surabaya, ubah huruf "a" pada kata tersebut menjadi huruf "o". Sehingga output-nya menjadi Suroboyo.
+> Diberikan sebuah kata Surabaya, ubah huruf "a" pada kata tersebut menjadi huruf "o". Sehingga output-nya menjadi Suroboyo
 
 **The Flowchart** : \
 ![Change Letter](4_changeLetter.png)
